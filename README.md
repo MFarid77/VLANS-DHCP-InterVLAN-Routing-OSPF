@@ -23,13 +23,9 @@ Layihə real şəbəkə mühitinə yaxın ssenarilər əsasında hazırlanmışd
   - VLAN 30 – IT
 - **OSPF Area:** 0
 
-> **Screenshot əlavə etmə:**  
-> Layihəni başa düşmək və vizual təsvir üçün Packet Tracer topologiyasının **screenshotunu** `Diagrams/NetworkTopology.png` qovluğuna əlavə edin. README-də bunu göstərmək üçün:
-> ```markdown
-> ![Network Topology](Diagrams/NetworkTopology.png)
-> ```
+Ekran görüntüsü
+[Network Topology](topologyphoto.png)
 
----
 
 ## Addım-addım Təlimat
 
