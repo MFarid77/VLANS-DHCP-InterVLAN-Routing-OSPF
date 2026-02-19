@@ -1,42 +1,31 @@
 # Cisco Network Project: VLANs + DHCP + Inter-VLAN Routing + OSPF
 
 ## Layihənin Təsviri
-Bu layihə Cisco Packet Tracer-də hazırlanmış tam işlək şəbəkə laboratoriyasıdır. Layihənin məqsədi:
+This project is a fully functional network lab created in Cisco Packet Tracer. The main objectives of the project are:
+  -Segmentation of the network using VLANs
+  -Automatic IP assignment to hosts via DHCP
+  -Inter-VLAN routing to enable communication between VLANs
+  -Dynamic routing using the OSPF protocol
 
-- VLAN-lar vasitəsilə şəbəkə seqmentlərinin ayrılması
-- DHCP ilə hostlara avtomatik IP təyin edilməsi
-- Inter-VLAN Routing ilə VLAN-lar arası rabitənin təmin edilməsi
-- OSPF protokolu ilə dinamik yönləndirmə
+The lab is designed to simulate a realistic network environment and is ideal for network administrators, students, and lab users.
 
-Layihə real şəbəkə mühitinə yaxın ssenarilər əsasında hazırlanmışdır və şəbəkə administratorları, tələbələr və laboratoriya istifadəçiləri üçün ideal təcrübədir.
+## Network Topology
 
----
-
-## Şəbəkə Topologiyası
-
-- **Router:** 1 ədəd (Router-on-a-Stick konfiqurasiyası)
-- **Switch:** 2-3 ədəd
-- **PC:** 6-10 ədəd
+- **Router:** 2  (Router-on-a-Stick configuration)
+- **Switch:** 2 
+- **PC:** 5 
 - **VLAN-lar:**  
   - VLAN 10 – HR  
-  - VLAN 20 – Sales  
+  - VLAN 20 – Finance  
   - VLAN 30 – IT
-- **OSPF Area:** 0
+- **OSPF Area:** 0,1 və 2
 
-Ekran görüntüsü
+## 📷 ScreenShot
 [Network Topology](topologyphoto.png)
 
+## 📂 Files Included
+- dhcp-snooping-lab.pkt
 
-## Addım-addım Təlimat
-
-### 1. VLAN-ların yaradılması
-```bash
-Switch> enable
-Switch# configure terminal
-Switch(config)# vlan 10
-Switch(config-vlan)# name HR
-Switch(config)# vlan 20
-Switch(config-vlan)# name Sales
-Switch(config)# vlan 30
-Switch(config-vlan)# name IT
-Switch(config)# exit
+## 👨‍💻 Author
+Farid M
+Cybersecurity Student
