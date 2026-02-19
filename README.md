@@ -21,7 +21,7 @@ The lab is designed to simulate a realistic network environment and is ideal for
 - **OSPF Area:** 0,1 və 2
 
 ## 📷 ScreenShot
-[Network Topology](topologyphoto.png)
+![Topology](topologyphoto.png)
 
 ## 📂 Files Included
 - dhcp-snooping-lab.pkt
